@@ -1,0 +1,21 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.facebook.react:react-native:+'
+    compile 'com.android.support:appcompat-v7:23.+'
+}

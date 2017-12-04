@@ -1,0 +1,22 @@
+{
+  "name": "rn-permission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomCruiseYang/rn-permission.git"
+  },
+  "keywords": [
+    "123456"
+  ],
+  "author": "yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomCruiseYang/rn-permission/issues"
+  },
+  "homepage": "https://github.com/TomCruiseYang/rn-permission#readme"
+}
